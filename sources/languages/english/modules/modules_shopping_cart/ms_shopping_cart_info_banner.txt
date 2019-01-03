@@ -1,0 +1,2 @@
+module_shopping_cart_info_banner = Do  you want to display banner information the shopping cart ?
+module_shopping_cart_info_banner_description = Display a banner information the shopping cart

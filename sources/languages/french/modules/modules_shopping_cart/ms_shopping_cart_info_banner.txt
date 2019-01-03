@@ -1,0 +1,2 @@
+module_shopping_cart_info_banner = Souhaitez-vous afficher bannière d'information dans la procédure de commande ?
+module_shopping_cart_info_banner_description = Affiche une bannière d'information dans la procédure de commande
