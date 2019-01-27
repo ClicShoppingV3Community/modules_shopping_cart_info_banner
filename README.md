@@ -32,6 +32,8 @@ Implementation:
 - Copy the modules_shopping_cart_info_banner.json into ClicShopping/Work/Cache/Github (manual installation)
 
  All informations about the ClicShopping
+ 
+ Download ClicShopping : https://github.com/ClicShopping/ClicShopping_V3/archive/master.zip
 
  Community : https://www.clicshopping.org
 
