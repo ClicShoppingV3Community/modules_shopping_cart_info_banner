@@ -54,7 +54,7 @@
          $shopping_cart_information_order_process = '  <!-- Shopping_cart start information order process -->'. "\n";
 
          ob_start();
-         require($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/shopping_cart_info_banner'));
+         require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/shopping_cart_info_banner'));
 
          $shopping_cart_information_order_process .= ob_get_clean();
 
