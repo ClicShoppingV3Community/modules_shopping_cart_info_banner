@@ -42,6 +42,8 @@
       $CLICSHOPPING_Banner = Registry::get('Banner');
 
       if (isset($_GET['Cart']) && $CLICSHOPPING_ShoppingCart->getCountContents() > 0) {
+        $shopping_cart_process_order_banner = '';
+
         if ($CLICSHOPPING_Service->isStarted('Banner') ) {
           if ($banner = $CLICSHOPPING_Banner->bannerExists('dynamic',  MODULE_SHOPPING_CART_INFO_BANNER_BANNER_GROUP)) {
             $shopping_cart_process_order_banner = $CLICSHOPPING_Banner->displayBanner('dynamic', $banner) . '<br /><br />';
