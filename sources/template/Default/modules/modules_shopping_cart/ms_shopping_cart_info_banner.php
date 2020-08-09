@@ -148,7 +148,7 @@
     }
 
     public function keys() {
-      return array (
+      return array(
         'MODULE_SHOPPING_CART_INFO_BANNER_STATUS',
         'MODULE_SHOPPING_CART_INFO_BANNER_CONTENT_WIDTH',
         'MODULE_SHOPPING_CART_INFO_BANNER_POSITION',
