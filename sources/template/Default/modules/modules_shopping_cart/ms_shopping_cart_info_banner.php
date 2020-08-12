@@ -44,7 +44,7 @@
       if (isset($_GET['Cart']) && $CLICSHOPPING_ShoppingCart->getCountContents() > 0) {
         $shopping_cart_process_order_banner = '';
 
-        if ($CLICSHOPPING_Service->isStarted('Banner') ) {
+        if ($CLICSHOPPING_Service->isStarted('Banner')) {
           if ($banner = $CLICSHOPPING_Banner->bannerExists('dynamic',  MODULE_SHOPPING_CART_INFO_BANNER_BANNER_GROUP)) {
             $shopping_cart_process_order_banner = $CLICSHOPPING_Banner->displayBanner('dynamic', $banner) . '<br /><br />';
           }
@@ -53,7 +53,7 @@
         $content_width = (int)MODULE_SHOPPING_CART_INFO_BANNER_CONTENT_WIDTH;
         $position = MODULE_SHOPPING_CART_INFO_BANNER_POSITION;
 
-         $shopping_cart_information_order_process = '  <!-- Shopping_cart start information order process -->'. "\n";
+         $shopping_cart_information_order_process = '  <!-- Shopping_cart start information order process -->' . "\n";
 
          ob_start();
          require_once($CLICSHOPPING_Template->getTemplateModules($this->group . '/content/shopping_cart_info_banner'));
