@@ -117,7 +117,7 @@
       $CLICSHOPPING_Db->save('configuration', [
           'configuration_title' => 'Where do you want to display the module?',
           'configuration_key' => 'MODULE_SHOPPING_CART_INFO_BANNER_POSITION',
-          'configuration_value' => 'none',
+          'configuration_value' => 'float-none',
           'configuration_description' => 'Displays the module to the left or to the right ',
           'configuration_group_id' => '6',
           'sort_order' => '2',
